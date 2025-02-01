@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --transform :  rotateX(60deg) skew(-10deg, 0);
+    --trans-opposite:  rotateX(60deg) skew(-2deg, 0);
+    --border-white: white;
+    --white-shadow: 0px 0px 15px white;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../ps5-bg.png");
+    background-size: cover;
+}
+

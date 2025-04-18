@@ -3,6 +3,14 @@ const sections = document.querySelectorAll('.glow-group');
 const intro = document.querySelector('.intro');
 intro.classList.add('glow')
 
+function removeClass(){
+    sections.forEach(section => {
+        if( section.classList.contains('glow')){
+            section.classList.remove('glow')
+        }
+    })
+}
+
 main.onscroll = ()=>{
     const scroller_height = main.scrollHeight/2;
     const current_height = main.scrollTop;
@@ -25,10 +33,4 @@ main.onscroll = ()=>{
    
 }
 
-function removeClass(){
-    sections.forEach(section => {
-        if( section.classList.contains('glow')){
-            section.classList.remove('glow')
-        }
-    })
-}
+

@@ -48,9 +48,16 @@ a{
 }
 
 .intro{
+    position: relative;
     width: 100%;
     word-break: 200px;
     box-shadow: 2px 1px 1px var(--white) inset;
+}
+
+.certificate{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
 }
 
 .intro p{
